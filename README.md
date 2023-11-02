@@ -1,8 +1,17 @@
-# React + Vite
+# Lvdwig Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![](/src/img/portfolio.png)
 
-Currently, two official plugins are available:
+## What can you see at the Portfolio?
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- You can see a little bit of info about me
+
+- What apps I have developed
+
+- What code editor and with which language I code
+
+- You can also check what config I have in my code editor
+
+## How is the portfolio made?
+
+- The portfolio is made with ReactJS
