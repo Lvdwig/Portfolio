@@ -1,0 +1,175 @@
+.about-me-boxes {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.introduction {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.introduction-text {
+  font-size: 17px;
+  font-weight: bold;
+  width: 40%;
+  text-align: center;
+}
+
+.studies-jobs {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.studies-jobs-boxes {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  gap: 75px;
+}
+
+.studies-jobs-box {
+  width: 15%;
+  border: var(--secondaryColor) 2px solid;
+}
+
+.studies-jobs-title {
+  font-size: 20px;
+  text-decoration: underline;
+  text-decoration-color: #eee;
+}
+
+.studies-jobs-text {
+  font-size: 17px;
+  padding-right: 20px;
+  padding-left: 20px;
+  font-weight: bold;
+}
+
+.title {
+  margin: 25px;
+}
+
+.software-i-use-title {
+  margin-top: 30px;
+  font-size: 25px;
+  color: var(--primaryColor);
+  text-align: center;
+}
+
+.software-i-use-boxes {
+  display: flex;
+  justify-content: center;
+}
+
+.software-i-use-box {
+  color: var(--primaryColor);
+  margin-right: 50px;
+  padding: 10px;
+  border: 1px var(--secondaryColor) solid;
+}
+
+.text-editor {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.neovim {
+  font-size: 20px;
+  font-weight: bold;
+  background-image: linear-gradient(45deg, #076db2, #5c9535);
+  background-size: 100%;
+  background-repeat: repeat;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.text-editor a:link {
+  text-decoration: none;
+  background-color: var(--primaryColor);
+}
+
+.text-editor a:visited {
+  background-color: var(--primaryColor);
+}
+
+.text-editor a:hover {
+  background-color: var(--secondaryColor);
+}
+
+#neovim-config {
+  font-size: 17px;
+  font-weight: bold;
+  padding: 10px;
+  color: var(--backgroundColor);
+  background-color: var(--primaryColor);
+  border-radius: 10px;
+  transition: all 0.2s linear;
+}
+
+#neovim-config:hover {
+  transform: scale(1.05);
+  background-color: var(--secondaryColor);
+}
+
+.languagesContainer {
+  color: var(--primaryColor);
+  padding: 10px;
+  border: 1px var(--secondaryColor) solid;
+}
+
+.languages {
+  display: flex;
+  justify-content: space-evenly;
+  font-weight: bold;
+  font-size: 20px;
+  color: var(--backgroundColor);
+}
+
+.html {
+  padding: 5px 15px 5px 15px;
+  background-color: #d84924;
+  border-radius: 10px;
+  transition: all 0.2s linear;
+}
+
+.html:hover {
+  transform: scale(1.05);
+}
+
+.css {
+  padding: 5px 15px 5px 15px;
+  background-color: #264de4;
+  border-radius: 10px;
+  transition: all 0.2s linear;
+}
+
+.css:hover {
+  transform: scale(1.05);
+}
+
+.js {
+  padding: 5px 15px 5px 15px;
+  background-color: #f7df1e;
+  border-radius: 10px;
+  transition: all 0.2s linear;
+}
+
+.js:hover {
+  transform: scale(1.05);
+}
+
+.jsx {
+  padding: 5px 15px 5px 15px;
+  background-color: #61dafb;
+  border-radius: 10px;
+  transition: all 0.2s linear;
+}
+
+.jsx:hover {
+  transform: scale(1.05);
+}
