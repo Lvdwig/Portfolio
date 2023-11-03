@@ -1,6 +1,6 @@
 # Lvdwig Portfolio
 
-![](/src/img/portfolio.png)
+![portfolio](https://github.com/Lvdwig/Portfolio/assets/86422692/5be223b9-2df6-4f18-b9a4-850daf30bba9)
 
 ## What can you see at the Portfolio?
 
